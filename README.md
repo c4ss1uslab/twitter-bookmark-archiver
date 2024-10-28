@@ -38,14 +38,12 @@ TWITTER_CLIENT_SECRET=
 7. Get a [Twitter Developer account](https://developer.twitter.com/).
 8. Create a new app in the Twitter Developer dashboard. You may need to apply
    for "Elevated" access, usually the approval process is immediate.
-9. I'm a bit hazy on the next part as I can't repeat it since I'm limited to 1
-   "project" per account, but you'll need to get the client ID and client
-   secret and put them into the `.env` file. App permissions should be set to
+9. Go to User authentication settings and select Set Up. App permissions should be set to
    "Read", Type of App should be set to "Native App", and the Callback URI
    should be set to `http://localhost:3000`. It doesn't matter what your
-   "Website URL" is. **If you go through this process and are able to improve
-   this bit of the documentation, please open a pull request!!**
-10. Once the client ID and client secret are in place in the .env file, it
+   "Website URL" is.
+10. You'll get the client ID and client secret. Put them into the `.env` file.
+11. Once the client ID and client secret are in place, it
     should look like this (with different tokens):
 ```
 TWITTER_CLIENT_ID=XXXXxXXXXxxXXXXXXXXxXXxXXXXXxXXXXx
